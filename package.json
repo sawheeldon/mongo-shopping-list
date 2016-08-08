@@ -1,0 +1,29 @@
+{
+  "name": "mongo-shopping-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawheeldon/mongo-shopping-list.git"
+  },
+  "author": "Simon Wheeldon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawheeldon/mongo-shopping-list/issues"
+  },
+  "homepage": "https://github.com/sawheeldon/mongo-shopping-list#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.0.1"
+  }
+}
