@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-var config = require('../config');
+var config = require('./config');
 
 var app = express();
 
@@ -32,7 +32,7 @@ if (require.main === module) {
     });
 };
 
-var Item = require('../models/item');
+var Item = require('./models/item');
 
 app.get('/items', function(req, res) {
     Item.find(function(err, items) {
